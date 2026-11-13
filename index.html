@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptografia de texto</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="cartao">
+    <h1>🔐 Criptografia de texto</h1>
+    <p class="descricao">Escreva uma mensagem para criptografar ou descriptografar.</p>
+
+    <label for="texto">Sua mensagem</label>
+    <textarea id="texto" placeholder="Digite ou cole seu texto aqui..."></textarea>
+
+    <div class="botoes">
+      <button id="criptografar">Criptografar</button>
+      <button id="descriptografar" class="secundario">Descriptografar</button>
+      <button id="limpar" class="limpar">Limpar</button>
+    </div>
+
+    <label for="resultado">Resultado</label>
+    <textarea id="resultado" readonly placeholder="O resultado aparecerá aqui..."></textarea>
+
+    <button id="copiar" class="copiar">Copiar resultado</button>
+    <p id="aviso" aria-live="polite"></p>
+  </main>
+</body>
+</html>
